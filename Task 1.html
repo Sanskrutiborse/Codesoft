@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                
+            </nav>
+            
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Sanskruti</span><br> Borse from India</h1>
+            </div>
+        </div>
+    </div>
+      
+      
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="img(2).avif">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hey there! I'm Sanskruti Borse, a software engineer. I have always been fascinated by the digital world and how it impacts our lives,Growing up,I loved playing around with computers,which eventually led me to persue a career in software devlopment.I'm passionate about the interaction of art ,technology and human interaction and I bring a unique perspective to my work with my background in computer science. I love collabrating with others and I'm known for my problem-solving skills and commitments to creating captivating online experiances.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                    <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                    <p class="tab-links " onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UIX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web develpment</span><br>Web app develpment</li>
+                        <li><span>App development</span><br>Designing Android/Ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experiance">
+                    <ul>
+                        <li><span>2023-current</span><br>Python programming internship at Sumago Infotech pvt.ltd.</li>
+                        <li><span>April 15th,2023 </span><br>Crack leaked password database virtual Experiance program at Forage </li>
+                        <li><span>August 08,2022</span><br>Dataplus Overview course at TCS MasterCraft</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-current</span><br>Btech at Svkm Iot,Dhule</li>
+                        <li><span>2021-2022</span><br>HSC at Jaihind Sr.College Dhule</li>
+                        <li><span>2019-2020</span><br>SSC at Kamalabai High-School Dhule</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Design and build websites. Coding elements like a screen, keyboard, and web page symbolize expertise in website creation.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Create contextually relevant information that allows people to have a great user experience no matter where they are.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>apply proven approaches to design, prototyping, product validation and offer UI design services to create applications that users enjoy</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img4.avif" alt="">
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>The objective of weather app is the ability to display the weather minute basis accurately ,hourly,daily,weekly and even monthly.</p>
+               <a href="#"></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img 5.avif" alt="">
+            <div class="layer">
+              <h3>  To-Do-List App</h3>
+               <p> To-Do List project is an application specially built to keep track of errands or tasks that need to be done. This application will be like a task keeper where the user would be able to enter the tasks that they need to do.</p>
+               <a href="#"></a> 
+          </div>
+           
+    </div>
+    </div>
+    </div>
+<!-- contact -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+         <div class="contact-left">
+            <h1 class="sub-title">contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i>0123456789</p>
+            <div class="social-icons">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="" class="btn btn2">Download Resume</a>
+         </div>
+         <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea type="Message" rows="5" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+         </div>
+        </div>
+
+    </div>
+      <div class="copyright">
+        <p>COPYRIGHT 2023 WEB JOURNEY ALL RIGHTS RESERVED </p>
+      </div>
+  </div>
+     <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+                
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+</body>
+                          </html>
