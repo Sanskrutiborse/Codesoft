@@ -6,7 +6,7 @@
 ![CodSoft](https://img.shields.io/badge/CodSoft-Internship-green)
 
 Welcome to my **CodSoft Internship Projects** repository!  
-This collection features three creative and functional web development tasks completed as part of my **CodSoft Internship (Sep 25 – Oct 25, 2025)**.  
+This collection features three creative and functional web development tasks completed as part of my **CodSoft Internship**.  
 Each project demonstrates a strong understanding of **frontend development**, **UI design**, and **JavaScript interactivity**.
 
 ---
